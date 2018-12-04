@@ -8,4 +8,5 @@ import lombok.ToString;
 public class User {
 	private String userName;
 	private String passWord;
+	private String salt;
 }
